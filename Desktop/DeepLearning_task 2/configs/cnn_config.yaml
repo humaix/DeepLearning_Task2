@@ -1,0 +1,23 @@
+model_name: CNN
+
+epochs: 10
+
+batch_size: 32
+
+learning_rate: 0.001
+
+validation_split: 0.2
+
+optimizer: adam
+
+loss: categorical_crossentropy
+
+metrics:
+  - accuracy
+
+input_shape:
+  - 28
+  - 28
+  - 1
+
+num_classes: 10

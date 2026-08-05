@@ -1,0 +1,16 @@
+model_name: ANN
+
+epochs: 20
+
+batch_size: 32
+
+learning_rate: 0.001
+
+validation_split: 0.2
+
+optimizer: adam
+
+loss: binary_crossentropy
+
+metrics:
+  - accuracy
