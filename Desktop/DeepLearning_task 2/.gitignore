@@ -11,6 +11,6 @@ outputs/
 .idea/
 .vscode/
 
-data/
+/data/
 
 *.log
